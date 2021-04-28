@@ -1,0 +1,5 @@
+ING_Insurance\TestRunner\StepDefenition\StartPageStepDef.class
+ING_Insurance\Pages\Startpage.class
+ING_Insurance\TestRunner\RunCukesTest.class
+ING_Insurance\TestRunner\StepDefenition\WDManager.class
+ING_Insurance\BasePack\baseClass.class

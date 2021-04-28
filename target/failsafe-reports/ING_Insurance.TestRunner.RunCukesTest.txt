@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ING_Insurance.TestRunner.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.675 s - in ING_Insurance.TestRunner.RunCukesTest

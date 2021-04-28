@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-28T02:05:54.229Z",
+        "line": 47,
+        "name": "Delete call",
+        "description": "",
+        "id": "ing-restapi-calls;delete-call;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 159661700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The base Uri is http://localhost:3000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:3000",
+                  "offset": 16
+                }
+              ],
+              "location": "restAPIStepDef.The_base_Uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4416800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The request URI is  /INGCarInsurance",
+            "match": {
+              "arguments": [
+                {
+                  "val": " /INGCarInsurance",
+                  "offset": 19
+                }
+              ],
+              "location": "restAPIStepDef.The_request_URI_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3842700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "jsonBody for delete call request UEA1dIb",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UEA1dIb",
+                  "offset": 33
+                }
+              ],
+              "location": "restAPIStepDef.jsonBody_for_delete_call_request(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4414937400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Hit the API with delete call request UEA1dIb",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UEA1dIb",
+                  "offset": 37
+                }
+              ],
+              "location": "restAPIStepDef.Hit_the_API_with_delete_call_request(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2799700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Store the delete call response in file \\CarInsurance\\RestAPI_Response.txt UEA1dIb",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\\CarInsurance\\RestAPI_Response.txt",
+                  "offset": 39
+                },
+                {
+                  "val": "UEA1dIb",
+                  "offset": 74
+                }
+              ],
+              "location": "restAPIStepDef.Store_the_delete_call_response_in_file(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteCall"
+          }
+        ]
+      }
+    ],
+    "name": "ING RestApi calls",
+    "description": "",
+    "id": "ing-restapi-calls",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ING_Insurance/FeatureFiles/ING_RestAPI.feature",
+    "tags": []
+  }
+]

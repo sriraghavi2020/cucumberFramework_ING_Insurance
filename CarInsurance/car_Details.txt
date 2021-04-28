@@ -1,0 +1,5 @@
+Car Name: 2008 Honda Civic
+Type: Vti 4dr Sedan 1.8mpi
+Transmission: Manual
+Fuel Type: Petrol
+Colour: Blue

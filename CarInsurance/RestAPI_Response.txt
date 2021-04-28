@@ -1,0 +1,34 @@
+Response time: 2402
+Status code: 200
+Body: [
+  {
+    "id": "carID1",
+    "Car Name": "2008 Honda Civic",
+    "Type": "Vti 4dr Sedan 1.8mpi",
+    "Transmission": "Manual",
+    "Fuel Type": "Petrol",
+    "Colour": "Blue",
+    "Customer_Name": "Peter"
+  },
+  {
+    "id": "carID2",
+    "Car Name": "2018 Toyota Camry",
+    "Type": "Vti 4dr Sedan 1.8mpi",
+    "Transmission": "Manual",
+    "Fuel Type": "Petrol",
+    "Colour": "Grey",
+    "Customer_Name": "Hill"
+  }
+]
+Response for PostCall
+Response time: 1828
+Response Status: 500
+Response for PostCall
+Response time: 1826
+Response Status: 201
+Response for DeleteCall
+Response Status: 404
+Response for DeleteCall
+Response Status: 200
+Response for DeleteCall for id: UEA1dIb
+Response Status: 200
