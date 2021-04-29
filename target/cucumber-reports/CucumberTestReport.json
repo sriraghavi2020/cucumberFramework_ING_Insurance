@@ -3,121 +3,88 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-28T02:05:54.229Z",
-        "line": 47,
-        "name": "Delete call",
+        "start_timestamp": "2021-04-29T05:26:54.129Z",
+        "line": 2,
+        "name": "Get call in API Http clients",
         "description": "",
-        "id": "ing-restapi-calls;delete-call;;2",
+        "id": "ing-insurance-api-http-clients;get-call-in-api-http-clients",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 159661700,
+              "duration": 181368000,
               "status": "passed"
             },
-            "line": 39,
-            "name": "The base Uri is http://localhost:3000",
+            "line": 3,
+            "name": "Base URI for get call is http://localhost:3000",
             "match": {
               "arguments": [
                 {
                   "val": "http://localhost:3000",
-                  "offset": 16
+                  "offset": 25
                 }
               ],
-              "location": "restAPIStepDef.The_base_Uri_is(String)"
+              "location": "HttpClients_API.base_URI_for_get_call_is(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4416800,
+              "duration": 3949900,
               "status": "passed"
             },
-            "line": 40,
-            "name": "The request URI is  /INGCarInsurance",
+            "line": 4,
+            "name": "Request URI is /INGCarInsurance",
             "match": {
               "arguments": [
                 {
-                  "val": " /INGCarInsurance",
-                  "offset": 19
+                  "val": "/INGCarInsurance",
+                  "offset": 15
                 }
               ],
-              "location": "restAPIStepDef.The_request_URI_is(String)"
+              "location": "HttpClients_API.request_URI_is(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3842700,
+              "duration": 2000684000,
               "status": "passed"
             },
-            "line": 41,
-            "name": "jsonBody for delete call request UEA1dIb",
+            "line": 5,
+            "name": "Hit api with httpClient Get call",
             "match": {
-              "arguments": [
-                {
-                  "val": "UEA1dIb",
-                  "offset": 33
-                }
-              ],
-              "location": "restAPIStepDef.jsonBody_for_delete_call_request(String)"
+              "location": "HttpClients_API.Hit_api_with_httpClient_Get_call()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4414937400,
+              "duration": 5807400,
               "status": "passed"
             },
-            "line": 42,
-            "name": "Hit the API with delete call request UEA1dIb",
+            "line": 6,
+            "name": "Store the reponse in file \\CarInsurance\\HttpClientAPI_Response.txt",
             "match": {
               "arguments": [
                 {
-                  "val": "UEA1dIb",
-                  "offset": 37
+                  "val": "\\CarInsurance\\HttpClientAPI_Response.txt",
+                  "offset": 26
                 }
               ],
-              "location": "restAPIStepDef.Hit_the_API_with_delete_call_request(String)"
+              "location": "HttpClients_API.store_the_reponse_in_file(String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2799700,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "Store the delete call response in file \\CarInsurance\\RestAPI_Response.txt UEA1dIb",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\\CarInsurance\\RestAPI_Response.txt",
-                  "offset": 39
-                },
-                {
-                  "val": "UEA1dIb",
-                  "offset": 74
-                }
-              ],
-              "location": "restAPIStepDef.Store_the_delete_call_response_in_file(String,String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@DeleteCall"
           }
         ]
       }
     ],
-    "name": "ING RestApi calls",
+    "name": "ING_insurance API Http clients",
     "description": "",
-    "id": "ing-restapi-calls",
+    "id": "ing-insurance-api-http-clients",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/ING_Insurance/FeatureFiles/ING_RestAPI.feature",
+    "uri": "file:src/test/resources/ING_Insurance/FeatureFiles/APIHttpClients.feature",
     "tags": []
   }
 ]

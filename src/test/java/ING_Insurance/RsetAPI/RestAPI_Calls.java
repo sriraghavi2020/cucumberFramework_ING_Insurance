@@ -1,6 +1,5 @@
 package ING_Insurance.RsetAPI;
 
-import static io.restassured.RestAssured.given;
 
 import java.io.File;
 import java.io.FileNotFoundException;

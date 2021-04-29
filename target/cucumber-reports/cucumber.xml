@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.284092">
-<testcase classname="ING RestApi calls" name="Delete call" time="5.284092">
-<system-out><![CDATA[Given The base Uri is http://localhost:3000.................................passed
-Then The request URI is  /INGCarInsurance...................................passed
-Then jsonBody for delete call request UEA1dIb...............................passed
-Then Hit the API with delete call request UEA1dIb...........................passed
-Then Store the delete call response in file \CarInsurance\RestAPI_Response.txt UEA1dIb.passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.764004">
+<testcase classname="ING_insurance API Http clients" name="Get call in API Http clients" time="2.764004">
+<system-out><![CDATA[Given Base URI for get call is http://localhost:3000........................passed
+Then Request URI is /INGCarInsurance........................................passed
+Then Hit api with httpClient Get call.......................................passed
+Then Store the reponse in file \CarInsurance\HttpClientAPI_Response.txt.....passed
 ]]></system-out>
 </testcase>
 </testsuite>

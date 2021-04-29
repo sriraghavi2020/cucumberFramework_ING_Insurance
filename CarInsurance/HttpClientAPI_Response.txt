@@ -1,0 +1,41 @@
+GetCall Response
+StatusCode: 200
+Response body as JsonString: [
+  {
+    "id": "carID1",
+    "Car Name": "2008 Honda Civic",
+    "Type": "Vti 4dr Sedan 1.8mpi",
+    "Transmission": "Manual",
+    "Fuel Type": "Petrol",
+    "Colour": "Blue",
+    "Customer_Name": "Peter"
+  },
+  {
+    "id": "carID2",
+    "Car Name": "2018 Toyota Camry",
+    "Type": "Vti 4dr Sedan 1.8mpi",
+    "Transmission": "Manual",
+    "Fuel Type": "Petrol",
+    "Colour": "Grey",
+    "Customer_Name": "Hill"
+  },
+  {
+    "Type": "SUV",
+    "Transmission": "Automatic",
+    "id": "carID3 2014 Mitsubishi",
+    "Car Name": "ASX",
+    "Customer Name": "KK",
+    "Fuel Type": "Petrol",
+    "Colour": "Black"
+  },
+  {
+    "Type": "SUV",
+    "Transmission": "Automatic",
+    "id": "carID4 2018 Mitsubishi",
+    "Car Name": "ASX",
+    "Customer Name": "Simon",
+    "Fuel Type": "Petrol",
+    "Colour": "White"
+  }
+]
+Response body as Json Array: [{"Type":"Vti 4dr Sedan 1.8mpi","Customer_Name":"Peter","Transmission":"Manual","id":"carID1","Car Name":"2008 Honda Civic","Fuel Type":"Petrol","Colour":"Blue"},{"Type":"Vti 4dr Sedan 1.8mpi","Customer_Name":"Hill","Transmission":"Manual","id":"carID2","Car Name":"2018 Toyota Camry","Fuel Type":"Petrol","Colour":"Grey"},{"Type":"SUV","Transmission":"Automatic","id":"carID3 2014 Mitsubishi","Car Name":"ASX","Customer Name":"KK","Fuel Type":"Petrol","Colour":"Black"},{"Type":"SUV","Transmission":"Automatic","id":"carID4 2018 Mitsubishi","Car Name":"ASX","Customer Name":"Simon","Fuel Type":"Petrol","Colour":"White"}]
